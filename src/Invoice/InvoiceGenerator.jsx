@@ -175,7 +175,7 @@ const InvoiceGenerator = () => {
         <div className="row">
           <input type="text" value="Total" disabled />
           <input type="text" value={totalItem} disabled />
-          <input type="text" value="-" disabled />
+          <input type="text" value="---" disabled />
           <input type="text" value={`Rs. ${totalAmountMain}`} disabled />
         </div>
 
@@ -186,7 +186,7 @@ const InvoiceGenerator = () => {
           className="w-full bg-blue-500 text-white p-2 rounded mt-2"
         >
           Generate PDF
-        </button>
+        </button>                
       </div>
     </div>
   )
