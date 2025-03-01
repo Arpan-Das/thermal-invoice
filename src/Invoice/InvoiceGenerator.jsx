@@ -185,7 +185,7 @@ const InvoiceGenerator = () => {
           onClick={generatePDF}
           className="w-full bg-blue-500 text-white p-2 rounded mt-2"
         >
-          Generate PDF
+          Generate Invoice
         </button>                
       </div>
     </div>
